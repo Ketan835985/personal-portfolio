@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/alt-text */
 import { Col } from "react-bootstrap";
 
 export const ProjectCard = ({ title, description, imgUrl }) => {

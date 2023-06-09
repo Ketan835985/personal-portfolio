@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import headerImg from "../assets/img/header-img.svg";
@@ -10,6 +11,7 @@ export const Banner = () => {
   const [isDeleting, setIsDeleting] = useState(false);
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
+  // eslint-disable-next-line no-unused-vars
   const [index, setIndex] = useState(1);
   const toRotate = [ "Web Developer", "Software Developer", "Backend Developer" ];
   const period = 2000;

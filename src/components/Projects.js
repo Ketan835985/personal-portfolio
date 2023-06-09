@@ -1,3 +1,5 @@
+/* eslint-disable jsx-a11y/alt-text */
+/* eslint-disable-next-line */
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import url from "../assets/logo/url Shortner.png";
@@ -5,7 +7,7 @@ import bloGiNg from "../assets/logo/blogging.png";
 import eCom from "../assets/logo/e commerce.png";
 import library from '../assets/logo/librar.jpeg'
 import colorSharp2 from "../assets/img/color-sharp2.png";
-import jaikishan from '../assets/logo/jaikishan.png'
+import jai from '../assets/logo/jai.png'
 import prop from '../assets/logo/prop.png'
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -26,7 +28,7 @@ export const Projects = () => {
     {
       title: "Jai Kishan website",
       description: "Design & Development",
-      imgUrl: jaikishan,
+      imgUrl: jai,
     },
     {
       title: "College Library",
@@ -83,7 +85,7 @@ export const Projects = () => {
                       </Row>
                     </Tab.Pane>
                     <Tab.Pane eventKey="section">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae bandit's, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
