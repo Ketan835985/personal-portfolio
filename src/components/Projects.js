@@ -2,13 +2,6 @@
 /* eslint-disable-next-line */
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import url from "../assets/logo/url Shortner.png";
-import bloGiNg from "../assets/logo/blogging.png";
-import eCom from "../assets/logo/e commerce.png";
-import library from '../assets/logo/librar.jpeg'
-import colorSharp2 from "../assets/img/color-sharp2.png";
-import jai from '../assets/logo/jai.png'
-import prop from '../assets/logo/prop.png'
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -18,32 +11,32 @@ export const Projects = () => {
     {
       title: "URL Shortener",
       description: "Design & Development",
-      imgUrl: url,
+      imgUrl: 'https://i.postimg.cc/3RNCPW2M/url-Shortner.png',
     },
     {
       title: "Blog Website Backend",
       description: "Design & Development",
-      imgUrl: bloGiNg,
+      imgUrl: 'https://i.postimg.cc/gJgtZfHp/blogging.png',
     },
     {
       title: "Jai Kishan website",
       description: "Design & Development",
-      imgUrl: jai,
+      imgUrl: 'https://i.postimg.cc/GhF7P8Qz/jai.png',
     },
     {
       title: "College Library",
       description: "Design & Development",
-      imgUrl: library,
+      imgUrl: 'https://i.postimg.cc/sx9YWSrh/librar.jpg',
     },
     {
       title: "Fashion Bazaar Product Management",
       description: "Design & Development",
-      imgUrl: eCom,
+      imgUrl: 'https://i.postimg.cc/mrQ0tXnZ/e-commerce.png',
     },
     {
       title: "PortFolio",
       description: "Design & Development",
-      imgUrl: prop,
+      imgUrl: 'https://i.postimg.cc/ncbB13Sf/prop.png',
     },
   ];
 
@@ -97,7 +90,7 @@ export const Projects = () => {
           </Col>
         </Row>
       </Container>
-      <img className="background-image-right" src={colorSharp2}></img>
+      <img className="background-image-right" src={'https://i.postimg.cc/6qgXd7fB/color-sharp2.png'}></img>
     </section>
   )
 }
