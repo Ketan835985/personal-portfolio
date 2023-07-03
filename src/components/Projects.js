@@ -12,31 +12,37 @@ export const Projects = () => {
       title: "URL Shortener",
       description: "Design & Development",
       imgUrl: 'https://i.postimg.cc/3RNCPW2M/url-Shortner.png',
+      url : 'https://github.com/Ketan835985/URL_SHORTNER.git'
     },
     {
       title: "Blog Website Backend",
       description: "Design & Development",
       imgUrl: 'https://i.postimg.cc/gJgtZfHp/blogging.png',
+      url : 'https://github.com/Ketan835985/Blogging_Project.git'
     },
     {
       title: "Jai Kishan website",
       description: "Design & Development",
       imgUrl: 'https://i.postimg.cc/GhF7P8Qz/jai.png',
+      url : 'https://github.com/Ketan835985/JaiKishan_mini_Project.git'
     },
     {
       title: "College Library",
       description: "Design & Development",
       imgUrl: 'https://i.postimg.cc/sx9YWSrh/librar.jpg',
+      url : 'https://github.com/Ketan835985/Book-Management.git'
     },
     {
       title: "Fashion Bazaar Product Management",
       description: "Design & Development",
       imgUrl: 'https://i.postimg.cc/mrQ0tXnZ/e-commerce.png',
+      url : 'https://github.com/Ketan835985/fashion-bazaar.git'
     },
     {
       title: "PortFolio",
       description: "Design & Development",
       imgUrl: 'https://i.postimg.cc/ncbB13Sf/prop.png',
+      url : 'https://github.com/Ketan835985/personal-portfolio.git'
     },
   ];
 
